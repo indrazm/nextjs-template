@@ -1,8 +1,8 @@
 import '@/styles/globals.css';
+import { twMerge } from 'tailwind-merge';
 
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
-import { twMerge } from 'tailwind-merge';
 
 const fontSans = FontSans({ subsets: ['latin'] });
 
